@@ -1,5 +1,6 @@
-from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QScrollArea, QTextEdit
 from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QScrollArea, QTextEdit
+
 
 class PageFactu(QWidget):
     def __init__(self, config):
@@ -13,8 +14,10 @@ class PageFactu(QWidget):
         scroll_area = QScrollArea()
         scroll_area.setWidgetResizable(True)
         content = QTextEdit()
-        content.setPlainText("Contenu de la Page Factu\n" + "Lorem ipsum\n" * 30)
-        content.setStyleSheet(f"background-color: {config['colors']['content_bg']};")
+        content.setPlainText(
+            "Contenu de la Page Factu\n" + "Lorem ipsum\n" * 30)
+        content.setStyleSheet(
+            f"background-color: {config['style']['content_bg']};")
         scroll_area.setWidget(content)
 
         layout.addWidget(scroll_area)

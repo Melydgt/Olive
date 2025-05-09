@@ -1,9 +1,31 @@
-colors:
+style:
   navbar: "#60a5fa"
   navbar_button: "#ff4682"
+  navbar_width: 200
   filter_bar: "#a8e6a3"
+  filter_bar_height: 100
   content_bg: "#fca5a5"
   button_text: "#ffffff"
+
+  header_background: "#FFFFFF"
+  header_border: "2px solid red"
+  header_text_color: "red"
+  header_height: 100
+  footer_background: "#FFFFFF"
+  footer_border: "2px solid red"
+  footer_text_color: "red"
+  footer_height: 100
+
+  font_size:
+    button1: "26px"
+    filter1: "28px"
+    header1: "28px"
+    header2: "24px"
+    header3: "20px"
+    footer1: "28px"
+    content1: "16px"
+    content2: "14px"
+    content3: "12px"
 
 texts:
   window_title: "Template App - PyQt"
@@ -12,3 +34,34 @@ texts:
     - "Page Temps"
     - "Page All"
     - "Page Factu"
+
+  filter_options1:
+    - "Personne 1"
+    - "Personne 2"
+    - "Personne 3"
+    - "Personne 4"
+  filter_options2:
+    - "Filtre 2.1"
+    - "Filtre 2.2"
+    - "Filtre 2.3"
+    - "Filtre 2.4"
+  filter_options3:
+    - "Filtre 3.1"
+    - "Filtre 3.2"
+    - "Filtre 3.3"
+    - "Filtre 3.4"
+  filter_options4:
+    - "Filtre 4.1"
+    - "Filtre 4.2"
+    - "Filtre 4.3"
+    - "Filtre 4.4"
+
+  header1_title: "Typologie problème 1"
+  header2_title: "Tickets iPMP"
+  header3_left: "S / Tf Tickets Jira"
+  header3_right: "S / Tf Tickets iPMP"
+
+  footer1_quote: "Citation drôle"
+  footer1_total: "Total réel / Total estimé"
+  footer2_quote: "Citation sérieuse"
+  footer2_action: "Tout livrer 😎"
