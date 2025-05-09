@@ -1,0 +1,14 @@
+colors:
+  navbar: "#60a5fa"
+  navbar_button: "#ff4682"
+  filter_bar: "#a8e6a3"
+  content_bg: "#fca5a5"
+  button_text: "#ffffff"
+
+texts:
+  window_title: "Template App - PyQt"
+  pages:
+    - "Page PB"
+    - "Page Temps"
+    - "Page All"
+    - "Page Factu"
