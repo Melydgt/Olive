@@ -2,8 +2,10 @@ style:
   navbar: "#60a5fa"
   navbar_button: "#ff4682"
   navbar_width: 200
+
   filter_bar: "#a8e6a3"
   filter_bar_height: 100
+
   content_bg: "#fca5a5"
   button_text: "#ffffff"
 
@@ -11,10 +13,21 @@ style:
   header_border: "2px solid red"
   header_text_color: "red"
   header_height: 100
+
   footer_background: "#FFFFFF"
   footer_border: "2px solid red"
   footer_text_color: "red"
   footer_height: 100
+
+  row1_background: "#FFFFFF"
+  row1_border: "3px solid gray"
+  row1_height: 100
+  row1_text_color: "black"
+
+  row2_background: "#FFFFFF"
+  row2_border: "3px solid gray"
+  row2_height: 100
+  row2_text_color: "black"
 
   font_size:
     button1: "26px"
